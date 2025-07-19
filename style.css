@@ -1421,29 +1421,36 @@ span {
     transition-delay: .25s;
   }
 
-  /* Skills Section Mobile */
+  /* Skills Section Mobile - FIXED */
   .skills {
     padding: 8rem 4% 5rem;
   }
 
   .tab-buttons {
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 1rem;
     margin-bottom: 3rem;
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .tab-btn {
     width: 100%;
-    max-width: 30rem;
     justify-content: center;
-    padding: 1.2rem 2rem;
-    font-size: 1.4rem;
+    padding: 1.2rem 1rem;
+    font-size: 1.3rem;
     min-width: auto;
+    text-align: center;
   }
 
   .tab-btn span {
-    display: none;
+    font-size: 1.2rem;
+  }
+
+  .tab-btn i {
+    font-size: 1.8rem;
   }
 
   .skills-grid {
@@ -1457,17 +1464,17 @@ span {
   }
 
   .skill-header {
-    flex-direction: column;
-    text-align: center;
-    gap: 1rem;
-  }
-
-  .skill-info {
-    text-align: center;
+    gap: 1.5rem;
   }
 
   .skill-info h3 {
     font-size: 1.8rem;
+  }
+
+  .skill-icon {
+    width: 5rem;
+    height: 5rem;
+    font-size: 2.2rem;
   }
 
   /* Certificates Section Mobile */
@@ -1523,6 +1530,7 @@ span {
   }
 }
 
+/* Small Mobile - Update around line 1400 */
 @media (max-width: 600px) {
   .home-content h1 {
     font-size: 4.5rem;
@@ -1543,19 +1551,31 @@ span {
     width: 100%;
   }
 
-  /* Skills Section Small Mobile */
+  /* Skills Section Small Mobile - FIXED */
   .skills-description {
     font-size: 1.4rem;
     margin-bottom: 3rem;
   }
 
+  .tab-buttons {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    max-width: 30rem;
+  }
+
   .tab-btn {
     padding: 1rem 1.5rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    flex-direction: column;
+    gap: 0.5rem;
   }
 
   .tab-btn i {
-    font-size: 1.8rem;
+    font-size: 2rem;
+  }
+
+  .tab-btn span {
+    font-size: 1.1rem;
   }
 
   .skill-card {
