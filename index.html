@@ -37,7 +37,7 @@
                 <span class="animate" style="--i:3;"></span>
             </div>
             <p>
-                I’m a passionate Information Science and Engineering student with hands-on experience in web development and Python programming. Skilled in C, HTML, CSS, JavaScript, and Python, I’ve built responsive websites and contributed to impactful projects. Recognized with the Best Teamwork Award in a hackathon, I thrive in collaborative, fast-paced environments. I’m currently exploring React.js, backend technologies, and developing a strong interest in Artificial Intelligence and Machine Learning. Eager to apply my skills to solve real-world problems and create meaningful digital experiences.
+                I'm a passionate Information Science and Engineering student with hands-on experience in web development and Python programming. Skilled in C, HTML, CSS, JavaScript, and Python, I've built responsive websites and contributed to impactful projects. Recognized with the Best Teamwork Award in a hackathon, I thrive in collaborative, fast-paced environments. I'm currently exploring React.js, backend technologies, and developing a strong interest in Artificial Intelligence and Machine Learning. Eager to apply my skills to solve real-world problems and create meaningful digital experiences.
                 <span class="animate" style="--i:4;"></span>
             </p>
 
@@ -48,10 +48,10 @@
             </div>
         </div>
         <div class="home-sci">
-            <a href="https://github.com/Harshithad9/Harshithad9 "><i class='bx bxl-github'></i></a>
-            <a href="https://www.linkedin.com/in/harshitha-d-10ba05265" target="_blank"><i class='bx bxl-linkedin'></i></a>
-            <a href="https://www.instagram.com/harssh9_"><i class='bx bxl-instagram'></i></a>
-            <a href="mailto:dharshitha292@gmail.com"><i class='bx bxl-gmail'></i></a>
+            <a href="https://github.com/Harshithad9/Harshithad9 " aria-label="GitHub Profile"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/harshitha-d-10ba05265" target="_blank" aria-label="LinkedIn Profile"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://www.instagram.com/harssh9_" aria-label="Instagram Profile"><i class='bx bxl-instagram'></i></a>
+            <a href="mailto:dharshitha292@gmail.com" aria-label="Email Contact"><i class='bx bxl-gmail'></i></a>
             <span class="animate" style="--i:6;"></span>
         </div>
         <div class="home-imghover"></div>
@@ -62,8 +62,8 @@
         <h2 class="heading">About <span>Me</span></h2>
 
         <div class="about-img">
-            <img src="assets/certificates/hackathon n quiz/A_professional_young_woman_sitting_at_a_desk_loo_3.jpg">
-            
+            <img src="images/studemt.webp" alt="Harshitha D - Student Photo">
+            <span class="circle-spin"></span>
         </div>
 
         <div class="about-content">
@@ -146,17 +146,26 @@
 
         <div class="skills-tabs">
             <div class="tab-buttons">
-                <button class="tab-btn active" data-tab="technical">
+                <button class="tab-btn active" data-tab="programming" aria-label="Programming Languages">
                     <i class='bx bx-code-alt'></i>
-                    Technical Skills
+                    <span>Programming</span>
                 </button>
-                <button class="tab-btn" data-tab="additional">
-                    <i class='bx bx-server'></i>
-                    Additional Skills
+                <button class="tab-btn" data-tab="web-dev" aria-label="Web Development">
+                    <i class='bx bx-world'></i>
+                    <span>Web Development</span>
+                </button>
+                <button class="tab-btn" data-tab="tools" aria-label="Tools & Technologies">
+                    <i class='bx bx-wrench'></i>
+                    <span>Tools & Tech</span>
+                </button>
+                <button class="tab-btn" data-tab="soft-skills" aria-label="Soft Skills">
+                    <i class='bx bx-group'></i>
+                    <span>Soft Skills</span>
                 </button>
             </div>
 
-            <div class="tab-content active" id="technical">
+            <!-- Programming Languages Tab -->
+            <div class="tab-content active" id="programming">
                 <div class="skills-grid">
                     <div class="skill-card" data-skill="c">
                         <div class="skill-header">
@@ -165,13 +174,14 @@
                             </div>
                             <div class="skill-info">
                                 <h3>C Programming</h3>
-                                <span class="skill-level">80% Proficiency</span>
+                                <span class="skill-level">Advanced</span>
                             </div>
                         </div>
                         <div class="progress-container">
                             <div class="progress-bar">
                                 <div class="progress-fill c-lang" data-width="80"></div>
                             </div>
+                            <span class="progress-text">80%</span>
                         </div>
                     </div>
 
@@ -182,13 +192,14 @@
                             </div>
                             <div class="skill-info">
                                 <h3>Python</h3>
-                                <span class="skill-level">70% Proficiency</span>
+                                <span class="skill-level">Intermediate</span>
                             </div>
                         </div>
                         <div class="progress-container">
                             <div class="progress-bar">
                                 <div class="progress-fill python" data-width="70"></div>
                             </div>
+                            <span class="progress-text">70%</span>
                         </div>
                     </div>
 
@@ -199,30 +210,55 @@
                             </div>
                             <div class="skill-info">
                                 <h3>Java</h3>
-                                <span class="skill-level">35% Proficiency</span>
+                                <span class="skill-level">Beginner</span>
                             </div>
                         </div>
                         <div class="progress-container">
                             <div class="progress-bar">
                                 <div class="progress-fill java" data-width="35"></div>
                             </div>
+                            <span class="progress-text">35%</span>
                         </div>
                     </div>
 
+                    <div class="skill-card" data-skill="cpp">
+                        <div class="skill-header">
+                            <div class="skill-icon cpp">
+                                <i class='bx bx-code-curly'></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>C++</h3>
+                                <span class="skill-level">Beginner</span>
+                            </div>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress-bar">
+                                <div class="progress-fill cpp" data-width="40"></div>
+                            </div>
+                            <span class="progress-text">40%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Web Development Tab -->
+            <div class="tab-content" id="web-dev">
+                <div class="skills-grid">
                     <div class="skill-card" data-skill="html">
                         <div class="skill-header">
                             <div class="skill-icon html">
                                 <i class='bx bxl-html5'></i>
                             </div>
                             <div class="skill-info">
-                                <h3>HTML</h3>
-                                <span class="skill-level">85% Proficiency</span>
+                                <h3>HTML5</h3>
+                                <span class="skill-level">Advanced</span>
                             </div>
                         </div>
                         <div class="progress-container">
                             <div class="progress-bar">
                                 <div class="progress-fill html" data-width="85"></div>
                             </div>
+                            <span class="progress-text">85%</span>
                         </div>
                     </div>
 
@@ -232,14 +268,15 @@
                                 <i class='bx bxl-css3'></i>
                             </div>
                             <div class="skill-info">
-                                <h3>CSS</h3>
-                                <span class="skill-level">60% Proficiency</span>
+                                <h3>CSS3</h3>
+                                <span class="skill-level">Intermediate</span>
                             </div>
                         </div>
                         <div class="progress-container">
                             <div class="progress-bar">
-                                <div class="progress-fill css" data-width="60"></div>
+                                <div class="progress-fill css" data-width="75"></div>
                             </div>
+                            <span class="progress-text">75%</span>
                         </div>
                     </div>
 
@@ -250,19 +287,75 @@
                             </div>
                             <div class="skill-info">
                                 <h3>JavaScript</h3>
-                                <span class="skill-level">50% Proficiency</span>
+                                <span class="skill-level">Intermediate</span>
                             </div>
                         </div>
                         <div class="progress-container">
                             <div class="progress-bar">
-                                <div class="progress-fill js" data-width="50"></div>
+                                <div class="progress-fill js" data-width="65"></div>
                             </div>
+                            <span class="progress-text">65%</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-skill="react">
+                        <div class="skill-header">
+                            <div class="skill-icon react">
+                                <i class='bx bxl-react'></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>React.js</h3>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress-bar">
+                                <div class="progress-fill react" data-width="60"></div>
+                            </div>
+                            <span class="progress-text">60%</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-skill="nodejs">
+                        <div class="skill-header">
+                            <div class="skill-icon nodejs">
+                                <i class='bx bxl-nodejs'></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>Node.js</h3>
+                                <span class="skill-level">Beginner</span>
+                            </div>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress-bar">
+                                <div class="progress-fill nodejs" data-width="45"></div>
+                            </div>
+                            <span class="progress-text">45%</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-skill="bootstrap">
+                        <div class="skill-header">
+                            <div class="skill-icon bootstrap">
+                                <i class='bx bxl-bootstrap'></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>Bootstrap</h3>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress-bar">
+                                <div class="progress-fill bootstrap" data-width="70"></div>
+                            </div>
+                            <span class="progress-text">70%</span>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="tab-content" id="additional">
+            <!-- Tools & Technologies Tab -->
+            <div class="tab-content" id="tools">
                 <div class="skills-grid">
                     <div class="skill-card" data-skill="git">
                         <div class="skill-header">
@@ -271,13 +364,32 @@
                             </div>
                             <div class="skill-info">
                                 <h3>Git & GitHub</h3>
-                                <span class="skill-level">85% Proficiency</span>
+                                <span class="skill-level">Advanced</span>
                             </div>
                         </div>
                         <div class="progress-container">
                             <div class="progress-bar">
                                 <div class="progress-fill git" data-width="85"></div>
                             </div>
+                            <span class="progress-text">85%</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-skill="vscode">
+                        <div class="skill-header">
+                            <div class="skill-icon vscode">
+                                <i class='bx bx-code-alt'></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>VS Code</h3>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress-bar">
+                                <div class="progress-fill vscode" data-width="90"></div>
+                            </div>
+                            <span class="progress-text">90%</span>
                         </div>
                     </div>
 
@@ -288,16 +400,76 @@
                             </div>
                             <div class="skill-info">
                                 <h3>MongoDB</h3>
-                                <span class="skill-level">80% Proficiency</span>
+                                <span class="skill-level">Intermediate</span>
                             </div>
                         </div>
                         <div class="progress-container">
                             <div class="progress-bar">
-                                <div class="progress-fill mongodb" data-width="80"></div>
+                                <div class="progress-fill mongodb" data-width="65"></div>
                             </div>
+                            <span class="progress-text">65%</span>
                         </div>
                     </div>
 
+                    <div class="skill-card" data-skill="postman">
+                        <div class="skill-header">
+                            <div class="skill-icon postman">
+                                <i class='bx bx-server'></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>Postman</h3>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress-bar">
+                                <div class="progress-fill postman" data-width="70"></div>
+                            </div>
+                            <span class="progress-text">70%</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-skill="figma">
+                        <div class="skill-header">
+                            <div class="skill-icon figma">
+                                <i class='bx bxl-figma'></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>Figma</h3>
+                                <span class="skill-level">Beginner</span>
+                            </div>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress-bar">
+                                <div class="progress-fill figma" data-width="50"></div>
+                            </div>
+                            <span class="progress-text">50%</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-skill="tailwind">
+                        <div class="skill-header">
+                            <div class="skill-icon tailwind">
+                                <i class='bx bx-palette'></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>Tailwind CSS</h3>
+                                <span class="skill-level">Beginner</span>
+                            </div>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress-bar">
+                                <div class="progress-fill tailwind" data-width="55"></div>
+                            </div>
+                            <span class="progress-text">55%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Soft Skills Tab -->
+            <div class="tab-content" id="soft-skills">
+                <div class="skills-grid">
                     <div class="skill-card" data-skill="problem">
                         <div class="skill-header">
                             <div class="skill-icon problem">
@@ -305,13 +477,14 @@
                             </div>
                             <div class="skill-info">
                                 <h3>Problem Solving</h3>
-                                <span class="skill-level">60% Proficiency</span>
+                                <span class="skill-level">Advanced</span>
                             </div>
                         </div>
                         <div class="progress-container">
                             <div class="progress-bar">
-                                <div class="progress-fill problem" data-width="60"></div>
+                                <div class="progress-fill problem" data-width="85"></div>
                             </div>
+                            <span class="progress-text">85%</span>
                         </div>
                     </div>
 
@@ -322,13 +495,14 @@
                             </div>
                             <div class="skill-info">
                                 <h3>Communication</h3>
-                                <span class="skill-level">90% Proficiency</span>
+                                <span class="skill-level">Advanced</span>
                             </div>
                         </div>
                         <div class="progress-container">
                             <div class="progress-bar">
                                 <div class="progress-fill communication" data-width="90"></div>
                             </div>
+                            <span class="progress-text">90%</span>
                         </div>
                     </div>
 
@@ -339,13 +513,14 @@
                             </div>
                             <div class="skill-info">
                                 <h3>Teamwork</h3>
-                                <span class="skill-level">80% Proficiency</span>
+                                <span class="skill-level">Advanced</span>
                             </div>
                         </div>
                         <div class="progress-container">
                             <div class="progress-bar">
-                                <div class="progress-fill teamwork" data-width="80"></div>
+                                <div class="progress-fill teamwork" data-width="88"></div>
                             </div>
+                            <span class="progress-text">88%</span>
                         </div>
                     </div>
 
@@ -356,13 +531,50 @@
                             </div>
                             <div class="skill-info">
                                 <h3>Time Management</h3>
-                                <span class="skill-level">85% Proficiency</span>
+                                <span class="skill-level">Advanced</span>
                             </div>
                         </div>
                         <div class="progress-container">
                             <div class="progress-bar">
                                 <div class="progress-fill time" data-width="85"></div>
                             </div>
+                            <span class="progress-text">85%</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-skill="leadership">
+                        <div class="skill-header">
+                            <div class="skill-icon leadership">
+                                <i class='bx bx-crown'></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>Leadership</h3>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress-bar">
+                                <div class="progress-fill leadership" data-width="75"></div>
+                            </div>
+                            <span class="progress-text">75%</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-skill="creativity">
+                        <div class="skill-header">
+                            <div class="skill-icon creativity">
+                                <i class='bx bx-palette'></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>Creativity</h3>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress-bar">
+                                <div class="progress-fill creativity" data-width="80"></div>
+                            </div>
+                            <span class="progress-text">80%</span>
                         </div>
                     </div>
                 </div>
@@ -473,8 +685,8 @@
         <!-- Internship Certificates -->
         <div class="certificate-category">
             <div class="category-header">
-                <div class="category-icon hackathon">
-                    <i class='bx bx-trophy'></i>
+                <div class="category-icon internship">
+                    <i class='bx bx-briefcase'></i>
                 </div>
                 <h3 class="category-title">Internship Certificates</h3>
                 <span class="certificate-count">3 Certificates</span>
@@ -483,51 +695,51 @@
             <div class="certificates-grid">
                 <div class="certificate-card">
                     <div class="certificate-image">
-                        <img src="assets/certificates/internship/VaultOfCodes.jpeg" alt="VaultofCodes">
+                        <img src="assets/certificates/internship/VaultOfCodes.jpeg" alt="VaultofCodes Internship Certificate">
                         <div class="certificate-overlay">
-                            <a href="assets/certificates/internship/VaultOfCodes.jpeg" class="view-btn" target="_blank">
+                            <a href="assets/certificates/internship/VaultOfCodes.jpeg" class="view-btn" target="_blank" aria-label="View VaultofCodes Certificate">
                                 <i class='bx bx-link-external'></i>
-                                View
+                                View Certificate
                             </a>
                         </div>
                     </div>
                     <div class="certificate-info">
-                        <h4>VaultofCodes</h4>
-                        <p class="issuer">June 2025 • July 2025</p>
-                        <p class="description">Contributed to real-time web development projects while enhancing frontend skills</p>
+                        <h4>Web Development Internship</h4>
+                        <p class="issuer">VaultofCodes • June 2025 - July 2025</p>
+                        <p class="description">Contributed to real-time web development projects while enhancing frontend skills and building responsive applications.</p>
                     </div>
                 </div>
 
                 <div class="certificate-card">
                     <div class="certificate-image">
-                        <img src="images/c5.jpeg" alt="OPQ Tech">
+                        <img src="images/c5.jpeg" alt="OPQ Tech Internship Certificate">
                         <div class="certificate-overlay">
-                            <a href="images/c5.jpeg" class="view-btn" target="_blank">
+                            <a href="images/c5.jpeg" class="view-btn" target="_blank" aria-label="View OPQ Tech Certificate">
                                 <i class='bx bx-link-external'></i>
-                                View
+                                View Certificate
                             </a>
                         </div>
                     </div>
                     <div class="certificate-info">
-                        <h4>OPQ Tech</h4>
-                        <p class="issuer">Nov 2024 • May 2025</p>
+                        <h4>Web Development Internship</h4>
+                        <p class="issuer">OPQ Tech • Nov 2024 - May 2025</p>
                         <p class="description">Contributed to building responsive UIs, integrating backend services, and deploying applications for real-time use.</p>
                     </div>
                 </div>
 
                 <div class="certificate-card">
                     <div class="certificate-image">
-                        <img src="assets/certificates/internship/Edunet.jpeg" alt="Edunet Foundation">
+                        <img src="assets/certificates/internship/Edunet.jpeg" alt="Edunet Foundation Internship Certificate">
                         <div class="certificate-overlay">
-                            <a href="assets/certificates/internship/Edunet.jpeg" class="view-btn" target="_blank">
+                            <a href="assets/certificates/internship/Edunet.jpeg" class="view-btn" target="_blank" aria-label="View Edunet Foundation Certificate">
                                 <i class='bx bx-link-external'></i>
-                                View
+                                View Certificate
                             </a>
                         </div>
                     </div>
                     <div class="certificate-info">
-                        <h4>Edunet Foundation</h4>
-                        <p class="issuer">Dec 2024 • Jan 2025</p>
+                        <h4>Full Stack Web Developer Internship</h4>
+                        <p class="issuer">Edunet Foundation • Dec 2024 - Jan 2025</p>
                         <p class="description">Developed full stack web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js).</p>
                     </div>
                 </div>
@@ -541,58 +753,58 @@
                     <i class='bx bx-code-alt'></i>
                 </div>
                 <h3 class="category-title">Technical Certificates</h3>
-                <span class="certificate-count">6 Certificates</span>
+                <span class="certificate-count">9 Certificates</span>
             </div>
 
             <div class="certificates-grid">
                 <div class="certificate-card">
                     <div class="certificate-image">
-                        <img src="assets/certificates/technical/C.jpeg" alt="C Programming Language">
+                        <img src="assets/certificates/technical/C.jpeg" alt="C Programming Language Certificate">
                         <div class="certificate-overlay">
-                            <a href="assets/certificates/technical/C.jpeg" class="view-btn" target="_blank">
+                            <a href="assets/certificates/technical/C.jpeg" class="view-btn" target="_blank" aria-label="View C Programming Certificate">
                                 <i class='bx bx-link-external'></i>
-                                View
+                                View Certificate
                             </a>
                         </div>
                     </div>
                     <div class="certificate-info">
                         <h4>C Programming Language</h4>
                         <p class="issuer">QSpiders Tuitions • 2023</p>
-                        <p class="description">Comprehensive C programming course completion</p>
+                        <p class="description">Comprehensive C programming course completion covering fundamentals, data structures, and algorithms.</p>
                     </div>
                 </div>
 
                 <div class="certificate-card">
                     <div class="certificate-image">
-                        <img src="assets/certificates/technical/API.jpeg" alt="API Beginner Learning Path">
+                        <img src="assets/certificates/technical/API.jpeg" alt="API Beginner Learning Path Certificate">
                         <div class="certificate-overlay">
-                            <a href="assets/certificates/technical/API.jpeg" class="view-btn" target="_blank">
+                            <a href="assets/certificates/technical/API.jpeg" class="view-btn" target="_blank" aria-label="View API Learning Certificate">
                                 <i class='bx bx-link-external'></i>
-                                View
+                                View Certificate
                             </a>
                         </div>
                     </div>
                     <div class="certificate-info">
                         <h4>API Beginner Learning Path</h4>
                         <p class="issuer">Postman Academy • 2024</p>
-                        <p class="description">API development and testing fundamentals</p>
+                        <p class="description">API development and testing fundamentals including REST APIs, HTTP methods, and Postman usage.</p>
                     </div>
                 </div>
 
                 <div class="certificate-card">
                     <div class="certificate-image">
-                        <img src="images/c3.jpg" alt="Modern Web Development">
+                        <img src="images/c3.jpg" alt="Full Stack Web Development Certificate">
                         <div class="certificate-overlay">
-                            <a href="images/c3.jpg" class="view-btn" target="_blank">
+                            <a href="images/c3.jpg" class="view-btn" target="_blank" aria-label="View Full Stack Certificate">
                                 <i class='bx bx-link-external'></i>
-                                View
+                                View Certificate
                             </a>
                         </div>
                     </div>
                     <div class="certificate-info">
                         <h4>Full Stack Web Development</h4>
                         <p class="issuer">NoviTech • 2024</p>
-                        <p class="description">Full-stack web development certification</p>
+                        <p class="description">Comprehensive full-stack web development certification covering frontend and backend technologies.</p>
                     </div>
                 </div>
 
@@ -600,192 +812,182 @@
                     <div class="certificate-image">
                         <img src="images/c4.jpg" alt="JavaScript Certificate">
                         <div class="certificate-overlay">
-                            <a href="images/c4.jpg" class="view-btn" target="_blank">
+                            <a href="images/c4.jpg" class="view-btn" target="_blank" aria-label="View JavaScript Certificate">
                                 <i class='bx bx-link-external'></i>
-                                View
+                                View Certificate
                             </a>
                         </div>
                     </div>
                     <div class="certificate-info">
-                        <h4>JavaScript</h4>
+                        <h4>JavaScript Programming</h4>
                         <p class="issuer">Scaler Topics • 2025</p>
-                        <p class="description">Completed a JavaScript course covering ES6, DOM manipulation, and asynchronous programming.</p>
+                        <p class="description">Completed JavaScript course covering ES6, DOM manipulation, and asynchronous programming concepts.</p>
                     </div>
                 </div>
-            </div>
 
-            <div class="certificate-card">
+                <div class="certificate-card">
                     <div class="certificate-image">
-                        <img src="images/c5.jpg" alt="Python Certificate">
+                        <img src="images/c5.jpg" alt="Python OOP Certificate">
                         <div class="certificate-overlay">
-                            <a href="images/c5.jpg" class="view-btn" target="_blank">
+                            <a href="images/c5.jpg" class="view-btn" target="_blank" aria-label="View Python OOP Certificate">
                                 <i class='bx bx-link-external'></i>
-                                View
+                                View Certificate
                             </a>
                         </div>
                     </div>
                     <div class="certificate-info">
-                        <h4> Object Oriented Programming using Python</h4>
+                        <h4>Object Oriented Programming using Python</h4>
                         <p class="issuer">Infosys Springboard • 2025</p>
-                        <p class="description">Completed a course on Object Oriented Programming using Python, covering classes, inheritance, polymorphism, and encapsulation.</p>
+                        <p class="description">Completed course on OOP using Python, covering classes, inheritance, polymorphism, and encapsulation.</p>
                     </div>
                 </div>
-            </div>
 
-            <div class="certificate-card">
+                <div class="certificate-card">
                     <div class="certificate-image">
-                        <img src="images/c6.jpg" alt="chatgpt">
+                        <img src="images/c6.jpg" alt="ChatGPT with LLMs Certificate">
                         <div class="certificate-overlay">
-                            <a href="images/c6.jpg" class="view-btn" target="_blank">
+                            <a href="images/c6.jpg" class="view-btn" target="_blank" aria-label="View ChatGPT LLMs Certificate">
                                 <i class='bx bx-link-external'></i>
-                                View
+                                View Certificate
                             </a>
                         </div>
                     </div>
                     <div class="certificate-info">
                         <h4>Build your own ChatGPT with open source LLMs</h4>
                         <p class="issuer">Let's UpGrade • 2025</p>
-                        <p class="description">Built a custom ChatGPT-like chatbot using open-source LLMs, integrating a conversational UI with model inference via APIs or local deployment.</p>
+                        <p class="description">Built custom ChatGPT-like chatbot using open-source LLMs with conversational UI and model inference.</p>
                     </div>
                 </div>
-            </div>
-            <div class="certificate-card">
+
+                <div class="certificate-card">
                     <div class="certificate-image">
-                        <img src="images/c7.jpg" alt="chatgpt">
+                        <img src="images/c7.jpg" alt="Getting Started with Gemini Certificate">
                         <div class="certificate-overlay">
-                            <a href="images/c7.jpg" class="view-btn" target="_blank">
+                            <a href="images/c7.jpg" class="view-btn" target="_blank" aria-label="View Gemini Certificate">
                                 <i class='bx bx-link-external'></i>
-                                View
+                                View Certificate
                             </a>
                         </div>
                     </div>
                     <div class="certificate-info">
                         <h4>Getting Started with Gemini</h4>
                         <p class="issuer">Great Learning • 2025</p>
-                        <p class="description">Gained foundational knowledge of Google’s Gemini models and their integration into real-world applications through hands-on labs and prompt-based AI interactions.</p>
+                        <p class="description">Gained foundational knowledge of Google's Gemini models and their integration into real-world applications.</p>
                     </div>
                 </div>
-            </div>
 
-            <div class="certificate-card">
+                <div class="certificate-card">
                     <div class="certificate-image">
-                        <img src="images/c8.jpg" alt="chatgpt">
+                        <img src="images/c8.jpg" alt="Prompt Engineering Certificate">
                         <div class="certificate-overlay">
-                            <a href="images/c8.jpg" class="view-btn" target="_blank">
+                            <a href="images/c8.jpg" class="view-btn" target="_blank" aria-label="View Prompt Engineering Certificate">
                                 <i class='bx bx-link-external'></i>
-                                View
+                                View Certificate
                             </a>
                         </div>
                     </div>
                     <div class="certificate-info">
                         <h4>Prompt Engineering for ChatGPT</h4>
                         <p class="issuer">Great Learning • 2025</p>
-                        <p class="description">Completed a course on Prompt Engineering for ChatGPT, mastering techniques to craft effective prompts for improved LLM performance across various use cases.</p>
+                        <p class="description">Mastered techniques to craft effective prompts for improved LLM performance across various use cases.</p>
                     </div>
                 </div>
-            </div>
 
-            <div class="certificate-card">
+                <div class="certificate-card">
                     <div class="certificate-image">
-                        <img src="images/c9.jpg" alt="OS">
+                        <img src="images/c9.jpg" alt="Operating System Certificate">
                         <div class="certificate-overlay">
-                            <a href="images/c9.jpg" class="view-btn" target="_blank">
+                            <a href="images/c9.jpg" class="view-btn" target="_blank" aria-label="View Operating System Certificate">
                                 <i class='bx bx-link-external'></i>
-                                View
+                                View Certificate
                             </a>
                         </div>
                     </div>
                     <div class="certificate-info">
                         <h4>Operating System</h4>
                         <p class="issuer">Scaler Topics • 2025</p>
-                        <p class="description">Completed a course on Operating Systems, covering key concepts like process management, memory allocation, scheduling algorithms, and file systems.</p>
+                        <p class="description">Completed course covering process management, memory allocation, scheduling algorithms, and file systems.</p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Quiz & Competition Certificates -->
+        <!-- Hackathon & Competition Certificates -->
         <div class="certificate-category">
             <div class="category-header">
-                <div class="category-icon quiz">
-                    <i class='bx bx-book-open'></i>
+                <div class="category-icon hackathon">
+                    <i class='bx bx-trophy'></i>
                 </div>
                 <h3 class="category-title">Hackathon & Competition Certificates</h3>
-                <span class="certificate-count">5 Certificates</span>
+                <span class="certificate-count">4 Certificates</span>
             </div>
 
             <div class="certificates-grid">
                 <div class="certificate-card">
                     <div class="certificate-image">
-                        <img src="assets/certificates/hackathon n quiz/Spardha'24.jpeg" alt="Technical Symposium-SPARDHA '24">
+                        <img src="assets/certificates/hackathon n quiz/Spardha'24.jpeg" alt="Technical Symposium SPARDHA 24 Certificate">
                         <div class="certificate-overlay">
-                            <a href="assets/certificates/hackathon n quiz/Spardha'24.jpeg" class="view-btn" target="_blank">
+                            <a href="assets/certificates/hackathon n quiz/Spardha'24.jpeg" class="view-btn" target="_blank" aria-label="View SPARDHA 24 Certificate">
                                 <i class='bx bx-link-external'></i>
-                                View
+                                View Certificate
                             </a>
                         </div>
                     </div>
                     <div class="certificate-info">
-                        <h4>Technical Symposium-SPARDHA '24</h4>
+                        <h4>Technical Symposium - SPARDHA '24</h4>
                         <p class="issuer">City Engineering College • 2025</p>
-                        <p class="description">🥉 3rd Prize Winner – Technical Quiz, SPARDHA '24, National-Level Technical Symposium, showcasing strong technical knowledge and quick problem-solving skills.</p>
+                        <p class="description">🥉 3rd Prize Winner – Technical Quiz, SPARDHA '24, National-Level Technical Symposium, showcasing strong technical knowledge.</p>
                     </div>
                 </div>
-            </div>
 
-            <div class="certificates-grid">
                 <div class="certificate-card">
                     <div class="certificate-image">
-                        <img src="assets/certificates/hackathon n quiz/DSATM.jpeg" alt="HackQuest">
+                        <img src="assets/certificates/hackathon n quiz/DSATM.jpeg" alt="HackQuest Certificate">
                         <div class="certificate-overlay">
-                            <a href="assets/certificates/hackathon n quiz/DSATM.jpeg" class="view-btn" target="_blank">
+                            <a href="assets/certificates/hackathon n quiz/DSATM.jpeg" class="view-btn" target="_blank" aria-label="View HackQuest Certificate">
                                 <i class='bx bx-link-external'></i>
-                                View
+                                View Certificate
                             </a>
                         </div>
                     </div>
                     <div class="certificate-info">
-                        <h4>National Level Tech fest</h4>
+                        <h4>National Level Tech Fest</h4>
                         <p class="issuer">HackQuest • 2024</p>
-                        <p class="description">Hacathon competition participation</p>
+                        <p class="description">Participated in national level hackathon competition demonstrating problem-solving and coding skills.</p>
                     </div>
                 </div>
-            </div>
 
-            <div class="certificates-grid">
                 <div class="certificate-card">
                     <div class="certificate-image">
-                        <img src="assets/certificates/hackathon n quiz/Ideathon.jpeg" alt="NationBuilding Case Study Competition">
+                        <img src="assets/certificates/hackathon n quiz/Ideathon.jpeg" alt="NationBuilding Case Study Competition Certificate">
                         <div class="certificate-overlay">
-                            <a href="assets/certificates/hackathon n quiz/Ideathon.jpeg" class="view-btn" target="_blank">
+                            <a href="assets/certificates/hackathon n quiz/Ideathon.jpeg" class="view-btn" target="_blank" aria-label="View Ideathon Certificate">
                                 <i class='bx bx-link-external'></i>
-                                View
+                                View Certificate
                             </a>
                         </div>
                     </div>
                     <div class="certificate-info">
                         <h4>NationBuilding Case Study Competition</h4>
                         <p class="issuer">Unstop • 2025</p>
-                        <p class="description">National case study competition participation</p>
+                        <p class="description">Participated in national case study competition focusing on innovative solutions for nation building.</p>
                     </div>
                 </div>
-            </div>
 
-            <div class="certificates-grid">
                 <div class="certificate-card">
                     <div class="certificate-image">
-                        <img src="assets/certificates/hackathon n quiz/TGBH.pdf" alt="NationBuilding Case Study Competition">
+                        <img src="images/c10.jpg" alt="TGBH Competition Certificate">
                         <div class="certificate-overlay">
-                            <a href="images/c10.jpg" class="view-btn" target="_blank">
+                            <a href="images/c10.jpg" class="view-btn" target="_blank" aria-label="View TGBH Certificate">
                                 <i class='bx bx-link-external'></i>
-                                View
+                                View Certificate
                             </a>
                         </div>
                     </div>
                     <div class="certificate-info">
-                        <h4>NationBuilding Case Study Competition</h4>
-                        <p class="issuer">Unstop • 2025</p>
-                        <p class="description">National case study competition participation</p>
+                        <h4>TGBH Competition</h4>
+                        <p class="issuer">Tech Competition • 2025</p>
+                        <p class="description">Participated in technical competition showcasing innovation and problem-solving capabilities.</p>
                     </div>
                 </div>
             </div>
@@ -796,20 +998,20 @@
             <h3>Achievement Summary</h3>
             <div class="summary-stats">
                 <div class="stat-item">
-                    <div class="stat-number">8</div>
+                    <div class="stat-number">16</div>
                     <div class="stat-label">Total Certificates</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-number">3</div>
-                    <div class="stat-label">Hackathon Awards</div>
+                    <div class="stat-number">4</div>
+                    <div class="stat-label">Competition Awards</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-number">4</div>
+                    <div class="stat-number">9</div>
                     <div class="stat-label">Technical Certs</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-number">12</div>
-                    <div class="stat-label">Skills Mastered</div>
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Internships</div>
                 </div>
             </div>
         </div>
@@ -819,28 +1021,28 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me!</span><br>Let's get in touch...</h2>
 
-        <form action="#">
+        <form action="#" role="form" aria-label="Contact Form">
             <div class="input-box">
                 <div class="input-field">
-                    <input type="text" placeholder="Your Name" required>
+                    <input type="text" placeholder="Your Name" required aria-label="Your Name">
                     <span class="focus"></span>
                 </div>
                 <div class="input-field">
-                    <input type="email" placeholder="Email Id" required>
+                    <input type="email" placeholder="Email Id" required aria-label="Email Address">
                     <span class="focus"></span>
                 </div>
                 <div class="input-field">
-                    <input type="number" placeholder="Mobile Number" required>
+                    <input type="tel" placeholder="Mobile Number" required aria-label="Mobile Number">
                     <span class="focus"></span>
                 </div>
                 <div class="input-field">
-                    <input type="text" placeholder="Email Subject" required>
+                    <input type="text" placeholder="Email Subject" required aria-label="Email Subject">
                     <span class="focus"></span>
                 </div>
             </div>
 
             <div class="textarea-field">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required aria-label="Your Message"></textarea>
                 <span class="focus"></span>
             </div>
 
@@ -857,7 +1059,7 @@
         </div>
 
         <div class="footer-iconTop">
-            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+            <a href="#home" aria-label="Back to top"><i class='bx bx-up-arrow-alt'></i></a>
         </div>
     </footer>
 
